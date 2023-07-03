@@ -104,7 +104,7 @@ At the start, the 'messages' array only has one object in it — the system mess
 
 This creates an infinite loop, within which code will run repeatedly. This is so that the conversation can continue back-and-forth forever[^1].
 
-[^1]: In this case, the program will eventually halt because the messages array has outgrown what "gpt-3.5-turbo" can handle. A more sophisticated program might get around this by removing messages from the start of the array to make room for new messages at the end.
+[^1]: In this case, the program will eventually halt because the messages array has outgrown what "gpt-3.5-turbo" can handle. A more sophisticated program might remove messages from the start of the array to make room for new messages at the end once it gets too long.
 
 `user_content = input()`
 
