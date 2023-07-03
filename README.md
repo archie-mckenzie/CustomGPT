@@ -118,7 +118,7 @@ This is the line where the program call the OpenAI API. Your program makes a req
 
 `openai.ChatCompletion.create()` is the function in the `openai` library which lets you make this request. You provide it with two parameters — "model" and "messages". "messages" is the array of messages which represents the conversation so far. "model" is the exact AI model you want to respond to your request. In this case, the requested model is "gpt-3.5-turbo", the same one that ChatGPT uses. 
 
-Another model that is available is "gpt-4". GPT-4 is a OpenAI's latest and greatest language model. Because it is more powerful than their standard 3.5 offering, it is more expensive and not yet generally available. If you are a student of COS 109 and would like to experiment with GPT-4, get in touch.
+Another model that it's possible to use is "gpt-4". GPT-4 is a OpenAI's latest and greatest language model. Because it is more powerful than their standard 3.5 offering, it is more expensive and not yet generally available. If you are a student of COS 109 and would like to experiment with GPT-4, get in touch.
 
 `print(result.choices[0].message.content)`
 
