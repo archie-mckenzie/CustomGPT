@@ -130,7 +130,7 @@ The program appends the newly created message object to the end of the messages 
 
 And that's it! ChatGPT is just a slightly fancier version of this, behind a well-designed user interface.
 
-As you can see, the difficult part of AI is not using the models, but creating them in the first place. It takes hundreds of millions of dollars, weeks of running time, and mind-bending amounts of energy and data to synthesize a model like gpt-3.5-turbo. That's why companies like OpenAI need to raise so much money — like the $10B they got from Microsoft in January.
+As you can see, the difficult part of AI is not using the models, but creating them in the first place. It takes hundreds of millions of dollars, weeks of running time, and mind-bending amounts of energy and data to synthesize a model like gpt-3.5-turbo. That's why companies like OpenAI need so much money — like the $10B which Microsoft<a href='https://www.bloomberg.com/news/articles/2023-01-23/microsoft-makes-multibillion-dollar-investment-in-openai'>gave them</a> in January.
 
 ## Contact
 
