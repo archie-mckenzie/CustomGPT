@@ -16,13 +16,13 @@ A <i>very</i> simple custom chatbot in ten lines of Python, using OpenAI's API. 
         </ul>
     </li>
     <li>
-        Download `CustomGPT.py` or copy and paste <a href='https://github.com/archie-mckenzie/CustomGPT/blob/main/CustomGPT.py'>the code</a> into your own `.py` file.
+        Download 'CustomGPT.py' or copy and paste <a href='https://github.com/archie-mckenzie/CustomGPT/blob/main/CustomGPT.py'>the code</a> into your own '.py' file.
     </li>
     <li>
-        On the second line of `CustomGPT.py`, set `openai.api_key` equal to the API key that you created in Step 1.
+        On the second line of 'CustomGPT.py', set 'openai.api_key' equal to the API key that you created in Step 1.
     </li>
     <li>
-        Write instructions for your chatbot's personality or purpose in the `system_prompt` variable.
+        Write instructions for your chatbot's personality or purpose in the 'system_prompt' variable.
         <ul>
             <li>
                 ChatGPT's system prompt is something like: "Assistant is a large language model trained by OpenAI. Current date: 03/07/23. Knowledge cutoff: 09/21.".
@@ -30,10 +30,10 @@ A <i>very</i> simple custom chatbot in ten lines of Python, using OpenAI's API. 
         </ul>
     </li>
     <li>
-        Run `pip3 install openai` in your terminal. This installs the `openai` library.
+        Run 'pip3 install openai' in your terminal. This installs the 'openai' library.
         <ul>
             <li>
-                `openai` is a library created by OpenAI. It contains all the specifications for their API so your program can easily access it.
+                'openai' is a library created by OpenAI. It contains all the specifications for their API so your program can easily access it.
             </li>
             <li>
                 You only need to install a library once.
@@ -41,7 +41,7 @@ A <i>very</i> simple custom chatbot in ten lines of Python, using OpenAI's API. 
         </ul> 
     </li>
     <li>
-        Run `CustomGPT.py`. You can do this by running `python3 CustomGPT.py` in your terminal, or finding and pressing the "run" button in your development environment.
+        Run 'CustomGPT.py'. You can do this by typing 'python3 CustomGPT.py' in your terminal, or finding and pressing the run button in your chosen development environment.
         <ul>
             <li>Type a request in the terminal, just like you would to ChatGPT, and see what happens!</li>
         </ul>
