@@ -132,7 +132,7 @@ And that's it! ChatGPT is just a slightly fancier version of this, behind a well
 
 As you can see, the difficult part of AI is not using the models, but creating them in the first place. It takes hundreds of millions of dollars, weeks of running time, and mind-bending amounts of energy and data to synthesize a model like gpt-3.5-turbo. That's why companies like OpenAI need so much money — like the $10B which Microsoft<a href='https://www.bloomberg.com/news/articles/2023-01-23/microsoft-makes-multibillion-dollar-investment-in-openai'>gave them</a> in January.
 
-[^1]: Here, the program will eventually halt because the content of the messages array has outgrown what "gpt-3.5-turbo" can handle. A more sophisticated program might get around this by removing messages at the start to make room for new messages at the end.
+[^1]: Here, the program will eventually halt because the messages array has outgrown what "gpt-3.5-turbo" can handle. A more sophisticated program might get around this by removing messages from the start of the array to make room for new messages at the end.
 
 ## Contact
 
