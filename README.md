@@ -58,7 +58,7 @@ This lets your program use the `openai` library.
 
 `openai.api_key = "" # replace with your own OpenAI API key`
 
-This sets the API key so that your program can identify itself when it calls the OpenAI API. It should be replaced with your own secret key.
+This sets the API key so that your program can identify itself when it calls the OpenAI API. It should be replaced with your own secret API key.
 
 `system_prompt = "You are a pirate." # replace with your own system prompt`
 
