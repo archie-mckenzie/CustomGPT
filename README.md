@@ -139,7 +139,6 @@ This demo was created by <a href='https://archiemckenzie.com'>Archie McKenzie</a
 ## Code
 
 ```
-
 import openai
 openai.api_key = "" # replace with your own OpenAI API key
 
@@ -168,5 +167,4 @@ while True:
     print(result.choices[0].message.content)
 
     messages.append(result.choices[0].message)
-
 ```
