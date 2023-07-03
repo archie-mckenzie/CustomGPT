@@ -81,8 +81,8 @@ The content attribute is a string value representing the content of the message.
 
 So, a typical conversation might look like this:
 
-`
-[\n
+```
+[
     {
         "role": "system",
         "content": "You are an AI assistant."
@@ -96,7 +96,7 @@ So, a typical conversation might look like this:
         "content": "The capital of China is Beijing."
     }
 ]
-`
+```
 
 At the start, the 'messages' array only has one object in it — the system message. As the conversation develops, the program will keep adding more messages.
 
