@@ -22,7 +22,6 @@ while True:
         model="gpt-3.5-turbo",
         messages=messages
     )
-
     print(result.choices[0].message.content)
 
     messages.append(result.choices[0].message)
