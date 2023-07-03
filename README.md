@@ -66,7 +66,7 @@ This creates a variable called `system_prompt`. The system prompt is the initial
 
 `messages = [{"role": "system", "content": system_prompt}]`
 
-This creates an array (denoted by [] in Python) called 'messages', which is filled with objects (denoted by {} in Python).
+This creates an array (denoted by `[]` in Python) called 'messages', which is filled with objects (denoted by `{}` in Python).
 
 Each object in the 'messages' array represents a message to the AI model. Each message object has two properties: a "role" and some "content". 
 
