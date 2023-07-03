@@ -13,7 +13,7 @@ A <i>very</i> simple custom chatbot in ten lines of Python, using OpenAI's API. 
             </li>
             <li>An API key is a secret password which lets your program identify itself when it calls an API.</li>
             <li>Remember to save your API key somewhere safe — if you forget it, you'll have to create a new one.</li>
-        <ul>
+        </ul>
     </li>
     <li>
         Download `CustomGPT.py` or copy and paste <a href='https://github.com/archie-mckenzie/CustomGPT/blob/main/CustomGPT.py'>the code</a> into your own `.py` file.
