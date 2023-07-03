@@ -17,7 +17,7 @@ A <i>very</i> simple custom chatbot in ten lines of Python, using OpenAI's API. 
     </li>
     <li>
         Download 
-        ```CustomGPT.py``` 
+            ```CustomGPT.py``` 
         or copy and paste <a href='https://github.com/archie-mckenzie/CustomGPT/blob/main/CustomGPT.py'>the code</a> into your own `.py` file.
     </li>
     <li>
