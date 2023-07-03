@@ -82,7 +82,7 @@ The content attribute is a string value representing the content of the message.
 So, a typical conversation might look like this:
 
 `
-[
+[\n
     {
         "role": "system",
         "content": "You are an AI assistant."
