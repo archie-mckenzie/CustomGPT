@@ -73,8 +73,8 @@ Each object in the 'messages' array represents a message to the AI model. Each m
 There are only three possible values for the role attribute: "system", "user", and "assistant".
 <ul>
     <li>"system" provides goals, values, or key information that the assistant can use throughout the conversation.</li>
-    <li>"user" indicates that a (human) user has written the message.</li>
-    <li>"assistant" indicates that the AI model has written the message.</li>
+    <li>"user" indicates that a (human) user has written the content.</li>
+    <li>"assistant" indicates that the AI model has written the content.</li>
 </ul>
 
 The content attribute is a string value representing the content of the message.
