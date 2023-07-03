@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "" # Your OpenAI API key here
+openai.api_key = "" # replace with your own OpenAI API key
 
 system_prompt = "You are a pirate." # replace with your own system prompt
 
@@ -18,11 +18,11 @@ while True:
         "content": user_content
     })
 
-    completion = openai.ChatCompletion.create(
+    result = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=messages
     )
 
-    print(completion.choices[0].message.content)
-    
-    messages.append(completion.choices[0].message)
+    print(result.choices[0].message.content)
+
+    messages.append(result.choices[0].message)
