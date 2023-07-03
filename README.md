@@ -93,7 +93,7 @@ So, a typical conversation might look like this:
     },
     {
         "role": "assistant"
-        "content": "The capital of China is Beijing (北京)."
+        "content": "The capital of China is Beijing."
     }
 ]
 ```
