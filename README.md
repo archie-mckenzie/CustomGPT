@@ -102,7 +102,7 @@ At the start, the 'messages' array only has one object in it — the system mess
 
 `while True:`
 
-This creates an infinite loop. The code within the loop will run repeatedly. This is so that the conversation can continue back-and-forth forever.
+This creates an infinite loop, within which code will run repeatedly. This is so that the conversation can continue back-and-forth forever[^1].
 
 `user_content = input()`
 
@@ -131,6 +131,8 @@ The program appends the newly created message object to the end of the messages 
 And that's it! ChatGPT is just a slightly fancier version of this, behind a well-designed user interface.
 
 As you can see, the difficult part of AI is not using the models, but creating them in the first place. It takes hundreds of millions of dollars, weeks of running time, and mind-bending amounts of energy and data to synthesize a model like gpt-3.5-turbo. That's why companies like OpenAI need so much money — like the $10B which Microsoft<a href='https://www.bloomberg.com/news/articles/2023-01-23/microsoft-makes-multibillion-dollar-investment-in-openai'>gave them</a> in January.
+
+[^1]: Here, the program will eventually halt because the content of the messages array has outgrown what "gpt-3.5-turbo" can handle. A more sophisticated program might get around this by removing messages at the start to make room for new messages at the end.
 
 ## Contact
 
