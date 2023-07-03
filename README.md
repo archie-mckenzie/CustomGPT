@@ -93,7 +93,7 @@ So, a typical conversation might look like this:
     },
     {
         "role": "assistant"
-        "content": "The capital of China is Beijing."
+        "content": "The capital of China is Beijing (北京)."
     }
 ]
 ```
@@ -135,3 +135,38 @@ As you can see, the difficult part of AI is not using the models, but creating t
 ## Contact
 
 This demo was created by <a href='https://archiemckenzie.com'>Archie McKenzie</a> for the students of COS 109 in Fall 2023. Feel free to get in touch at <a href='mailto:archiem@princeton.edu'>archiem@princeton.edu</a> with any questions or issues.
+
+## Code
+
+```
+
+import openai
+openai.api_key = "" # replace with your own OpenAI API key
+
+system_prompt = "You are a pirate." # replace with your own system prompt
+
+messages = [
+    {
+        "role": "system",
+        "content": system_prompt
+    }
+]
+
+while True:
+    
+    user_content = input()
+    messages.append({
+        "role": "user",
+        "content": user_content
+    })
+
+    result = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
+
+    print(result.choices[0].message.content)
+
+    messages.append(result.choices[0].message)
+
+```
